@@ -1,4 +1,4 @@
-hostname = trade-acs.m.taobao.com, api.m.jd.com, api1.dobenge.cn, api.jiaonizuocai.com
+hostname = trade-acs.m.taobao.com,amdc.m.taobao.com, api.m.jd.com, api1.dobenge.cn, api.jiaonizuocai.com
 
 #rewrite
 #jd比价
