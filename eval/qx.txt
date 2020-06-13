@@ -1,0 +1,7 @@
+hostname = api.m.jd.com,api1.dobenge.cn,api.jiaonizuocai.com
+
+^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body eval_script.js
+
+https:\/\/api1\.dobenge\.cn\/api\/user\/getuserinfo url script-response-body eval_script.js
+
+https?:\/\/api\.jiaonizuocai\.com url script-response-body eval_script.js
