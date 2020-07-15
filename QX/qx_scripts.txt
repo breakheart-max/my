@@ -1,4 +1,4 @@
-hostname =api.m.jd.com, api1.dobenge.cn, api.jiaonizuocai.com
+hostname =api.m.jd.com, api1.dobenge.cn, api.jiaonizuocai.com, 8.8.8.8
 
 #rewrite
 #jd比价
@@ -7,3 +7,6 @@ hostname =api.m.jd.com, api1.dobenge.cn, api.jiaonizuocai.com
 https:\/\/api1\.dobenge\.cn\/api\/user\/getuserinfo url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/syjl.js
 #菜谱大全vip
 https?:\/\/api\.jiaonizuocai\.com url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/cpdq.js
+#box_js
+^https://8.8.8.8/api url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/chavy.box.js
+^https://8.8.8.8/(home|sub|my|app|log)($|\/) url script-response-body https://raw.githubusercontent.com/chavyleung/scripts/master/chavy.box.js
