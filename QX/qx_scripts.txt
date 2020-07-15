@@ -1,4 +1,4 @@
-hostname =api.m.jd.com, api1.dobenge.cn, api.jiaonizuocai.com, 8.8.8.8
+hostname =api.m.jd.com, api1.dobenge.cn, api.jiaonizuocai.com, 8.8.8.8, weather-data.apple.com
 
 #rewrite
 #jd比价
@@ -10,3 +10,5 @@ https?:\/\/api\.jiaonizuocai\.com url script-response-body https://raw.githubuse
 #box_js
 ^https://8.8.8.8/api url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/chavy.box.js
 ^https://8.8.8.8/(home|sub|my|app|log)($|\/) url script-response-body https://raw.githubusercontent.com/chavyleung/scripts/master/chavy.box.js
+#彩雲天氣
+https://weather-data.apple.com url script-request-header https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js
