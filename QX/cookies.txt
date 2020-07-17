@@ -1,4 +1,4 @@
-hostname= credits.bz.mgtv.com, wx.10086.cn, *.iqiyi.com, glados.rocks, api.weibo.cn, pay.sc.weibo.com
+hostname= credits.bz.mgtv.com, wx.10086.cn, *.iqiyi.com, glados.rocks, api.weibo.cn, pay.sc.weibo.com, 110.43.90.61, zt.wps.cn
 
 #京東簽到
 https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
@@ -17,3 +17,5 @@ https:\/\/glados\.rocks\/api\/user\/status url script-request-header https://raw
 https:\/\/api\.weibo\.cn\/\d\/video\/machine\?gsid url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
 # 钱包签到Cookie
 https:\/\/pay\.sc\.weibo\.com\/aj\/mobile\/home\/welfare\/signin\/do\? url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
+#wps簽到
+^https:\/\/zt.wps.cn\/2018\/docer_check_in\/api\/act_list - script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.cookie.js
