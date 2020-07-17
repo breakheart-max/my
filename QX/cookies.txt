@@ -1,4 +1,4 @@
-hostname= credits.bz.mgtv.com, wx.10086.cn, *.iqiyi.com, glados.rocks
+hostname= credits.bz.mgtv.com, wx.10086.cn, *.iqiyi.com, glados.rocks, api.weibo.cn
 
 #京東簽到
 https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
@@ -11,3 +11,5 @@ https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-reques
 https?:\/\/.*\.iqiyi\.com\/.*authcookie= url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 #GLaDOS簽到
 https:\/\/glados\.rocks\/api\/user\/status url script-request-header https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/glados.js
+#超話簽到
+^https:\/\/api\.weibo\.cn\/2\/(cardlist|page\/button) - script-request-header https://raw.githubusercontent.com/toulanboy/scripts/master/weibo/weibotalk.cookie.js
