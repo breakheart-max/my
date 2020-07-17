@@ -1,4 +1,4 @@
-hostname= credits.bz.mgtv.com, wx.10086.cn, *.iqiyi.com, glados.rocks, api.weibo.cn
+hostname= credits.bz.mgtv.com, wx.10086.cn, *.iqiyi.com, glados.rocks, api.weibo.cn, pay.sc.weibo.com
 
 #京東簽到
 https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
@@ -13,3 +13,7 @@ https?:\/\/.*\.iqiyi\.com\/.*authcookie= url script-request-header https://raw.g
 https:\/\/glados\.rocks\/api\/user\/status url script-request-header https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/glados.js
 #超話簽到
 ^https:\/\/api\.weibo\.cn\/2\/(cardlist|page\/button) - script-request-header https://raw.githubusercontent.com/toulanboy/scripts/master/weibo/weibotalk.cookie.js
+#微博每日簽到
+https:\/\/api\.weibo\.cn\/\d\/video\/machine\?gsid url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
+# 钱包签到Cookie
+https:\/\/pay\.sc\.weibo\.com\/aj\/mobile\/home\/welfare\/signin\/do\? url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
