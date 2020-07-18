@@ -18,4 +18,4 @@ https:\/\/api\.weibo\.cn\/\d\/video\/machine\?gsid url script-request-header htt
 # 钱包签到Cookie
 https:\/\/pay\.sc\.weibo\.com\/aj\/mobile\/home\/welfare\/signin\/do\? url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
 #wps簽到
-^https:\/\/zt.wps.cn\/2018\/docer_check_in\/api\/act_list - script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.cookie.js
+^https:\/\/zt.wps.cn\/2018\/docer_check_in\/api\/act_list url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.cookie.js
