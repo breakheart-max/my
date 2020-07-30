@@ -1,4 +1,4 @@
-hostname =api.m.jd.com, api1.dobenge.cn, weather-data.apple.com
+hostname =api1.dobenge.cn, weather-data.apple.com
 
 #rewrite
 #水印精灵
