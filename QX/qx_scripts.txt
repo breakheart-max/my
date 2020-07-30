@@ -1,11 +1,9 @@
-hostname =api.m.jd.com, api1.dobenge.cn, api.jiaonizuocai.com, weather-data.apple.com
+hostname =api.m.jd.com, api1.dobenge.cn, weather-data.apple.com
 
 #rewrite
 #jd比价
 ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
 #水印精灵
 https:\/\/api1\.dobenge\.cn\/api\/user\/getuserinfo url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/syjl.js
-#菜谱大全vip
-https?:\/\/api\.jiaonizuocai\.com url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/cpdq.js
 #彩雲天氣
 https://weather-data.apple.com url script-request-header https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js
