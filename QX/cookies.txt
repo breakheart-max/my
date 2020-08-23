@@ -6,11 +6,8 @@ https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-reques
 ^https:\/\/credits.bz.mgtv.com\/user\/creditsTake url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.cookie.js
 #爱奇艺会员签到
 https?:\/\/.*\.iqiyi\.com\/.*authcookie= url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
-#超話簽到
-^https:\/\/api\.weibo\.cn\/2\/(cardlist|page\/button) url script-request-header https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/weibo/weibotalk.cookie.js
 #微博每日簽到
 https:\/\/api\.weibo\.cn\/\d\/video\/machine\?gsid url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
-# 微博每日签到Cookie
 https:\/\/pay\.sc\.weibo\.com\/aj\/mobile\/home\/welfare\/signin\/do\? url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
 #wps簽到
 ^https:\/\/zt.wps.cn\/2018\/docer_check_in\/api\/act_list url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.cookie.js
