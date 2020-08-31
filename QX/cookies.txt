@@ -1,11 +1,11 @@
-hostname= credits.bz.mgtv.com, *.iqiyi.com, api.weibo.cn, pay.sc.weibo.com, 110.43.90.61, zt.wps.cn, user-api-prd-mx.wandafilm.com
+hostname= credits.bz.mgtv.com, iface?.iqiyi.com, api.weibo.cn, pay.sc.weibo.com, 110.43.90.61, zt.wps.cn, user-api-prd-mx.wandafilm.com
 
 #京東簽到
 https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 #芒果tv
 ^https:\/\/credits.bz.mgtv.com\/user\/creditsTake url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.cookie.js
 #爱奇艺会员签到
-https?:\/\/.*\.iqiyi\.com\/.*authcookie= url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+^https:\/\/iface\d\.iqiyi\.com\/.+?psp_cki= url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 #微博每日簽到
 https:\/\/api\.weibo\.cn\/\d\/video\/machine\?gsid url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
 https:\/\/pay\.sc\.weibo\.com\/aj\/mobile\/home\/welfare\/signin\/do\? url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
