@@ -6,6 +6,5 @@
 
 
 ;host, www.example.com, proxy
-user-agent, LIHKG*, LIHKG
-host, lihkg.com, LIHKG
+host-suffix, lihkg.com, LIHKG
 host, data.flurry.com, LIHKG
