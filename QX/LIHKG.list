@@ -6,5 +6,5 @@
 
 
 ;host, www.example.com, proxy
-host-suffix, lihkg.com, LIHKG
-host, data.flurry.com, LIHKG
+host-suffix, lihkg.com
+host-suffix, dcard.tw
