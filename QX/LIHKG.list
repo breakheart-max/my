@@ -6,5 +6,5 @@
 
 
 ;host, www.example.com, proxy
-host-suffix, lihkg.com
-host-suffix, dcard.tw
+DOMAIN-SUFFIX, lihkg.com
+DOMAIN-SUFFIX, dcard.tw
