@@ -1,2 +1,2 @@
 # my
-quantumultx使用
+Surge、quantumultx使用
