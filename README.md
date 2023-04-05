@@ -1,2 +1,2 @@
 # my
-Surge、quantumultx使用
+Surge相关配置自用
