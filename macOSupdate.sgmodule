@@ -1,0 +1,5 @@
+#!name=屏蔽系统更新
+#!desc=
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Apple/SoftwareUpdate.list,REJECT
