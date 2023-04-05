@@ -1,6 +1,5 @@
 #!name=Block SystemUpdate
 #!desc=屏蔽macOS系统更新
-#!system=macos
 
 [Rule]
 # Software Update
